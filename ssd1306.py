@@ -133,7 +133,7 @@ class SSD1306:
         self.write_cmd(SET_HWSCROLL_ON) # activate scroll
 """    
     # This is for the diagonal scroll, it shows wierd actifacts on the lcd!!  
-    def hw_scroll_diag(self, direction=True):   # default to scroll verticle and right
+    def hw_scroll_diag(self, direction=True):   # default to scroll vertical and right
         self.write_cmd(SET_HWSCROLL_OFF)  # turn off hardware scroll per SSD1306 datasheet
         if not direction:
             self.write_cmd(SET_HWSCROLL_VL)
