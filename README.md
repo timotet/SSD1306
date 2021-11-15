@@ -6,7 +6,7 @@ Added hardware horizontal scroll and a clear function
 Heres a usage example:
 
     # runs under micropython version 1.17
-    # import machine
+    
     from machine import Pin, I2C
     import time
     import ssd1306
