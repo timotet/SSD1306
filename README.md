@@ -5,7 +5,7 @@ Added hardware horizontal scroll and a clear function
 
 Heres a usage example:
 
-    # runs under micropython version 1.18
+    # runs under micropython version 1.20
     # Tested using a cheap ESP32 module
     
     from machine import Pin, I2C
